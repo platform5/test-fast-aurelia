@@ -1,14 +1,14 @@
 export class App {
   
-  public displayCalendar = false;
+  public displayRegion = false;
 
   public message = 'Hello Fast World!';
 
-  public openCalendar(): void {
-    this.displayCalendar = true;
+  public openRegion(): void {
+    this.displayRegion = true;
   }
-  public closeCalendar(): void {
-    this.displayCalendar = false;
+  public closeRegion(): void {
+    this.displayRegion = false;
   }
 
 }
