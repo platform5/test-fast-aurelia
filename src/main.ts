@@ -9,8 +9,6 @@ provideFASTDesignSystem()
       fastAnchoredRegion()
   );
 
-export * from './text-field';
-
 export function configure(aurelia: Aurelia): void {
   aurelia.use
     .standardConfiguration()
